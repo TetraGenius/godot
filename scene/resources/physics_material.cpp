@@ -1,4 +1,4 @@
-/*************************************************************************/
+/********Theuns edited line 48 0, 1 to 0, 5*******************************/
 /*  physics_material.cpp                                                 */
 /*************************************************************************/
 /*                       This file is part of:                           */
@@ -45,7 +45,7 @@ void PhysicsMaterial::_bind_methods() {
 
 	ADD_PROPERTY(PropertyInfo(Variant::FLOAT, "friction", PROPERTY_HINT_RANGE, "0,1,0.01"), "set_friction", "get_friction");
 	ADD_PROPERTY(PropertyInfo(Variant::BOOL, "rough"), "set_rough", "is_rough");
-	ADD_PROPERTY(PropertyInfo(Variant::FLOAT, "bounce", PROPERTY_HINT_RANGE, "0,1,0.01"), "set_bounce", "get_bounce");
+	ADD_PROPERTY(PropertyInfo(Variant::FLOAT, "bounce", PROPERTY_HINT_RANGE, "0,5,0.001"), "set_bounce", "get_bounce");
 	ADD_PROPERTY(PropertyInfo(Variant::BOOL, "absorbent"), "set_absorbent", "is_absorbent");
 }
 
